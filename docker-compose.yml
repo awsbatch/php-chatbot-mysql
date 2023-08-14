@@ -6,7 +6,7 @@ services:
       - "3306:3306"
     container_name: mysqlapp
     environment:
-      MYSQL_ROOT_PASSWORD: 1test2
+      MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: chat
     volumes:
       - /home/ravendra/volume:/var/lib/mysql
