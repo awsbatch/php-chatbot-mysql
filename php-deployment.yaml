@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: webapp1
-        image: shawon10/ruetchatbot
+        image: ravendrarana/php-chatbot-mysql
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
